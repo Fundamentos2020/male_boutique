@@ -1,0 +1,94 @@
+.bannerP
+{
+    border-radius: 10%;   opacity: 0.99;
+     padding: 15%; width: 100%; height: 20%; border-bottom: black 4px solid;    min-height: 200px;
+    text-align: center;
+    background-color: rgba(218,1,156, 0.2);
+}
+
+.bannerC
+{
+    border-radius: 10%;   opacity: 0.99;
+    background-color: rgba(218,1,156, 0.2);
+    padding: 15%; width: 100%; height: 20%; border-bottom: black 4px solid;    text-align: center;
+    min-height: 200px;
+}
+
+#listaCategorias
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 5%;
+
+}
+
+#listaCategorias div
+{
+    /*background-color:greenyellow;*/
+}
+
+#espacio1
+{
+    background-color: rgba(218,1,156, 0.2);
+    height: 150px;
+    border-radius: 10%;   opacity: 0.90;
+
+    
+}
+
+#espacio2
+{
+    background-color: rgba(218,1,156, 0.2);
+    height: 150px;
+    border-radius: 10%;   opacity: 0.90;
+
+}
+#espacio3
+{
+    background-color: cadetblue;
+    height: 150px;
+    border-radius: 10%;   opacity: 0.90;
+
+}
+#espacio4
+{
+    background-color: coral;
+    height: 150px;
+    border-radius: 10%;   opacity: 0.90;
+
+}
+
+
+#contLink
+{
+    height: 100%;
+    background-color: #e2f567;
+    display: inline-block;
+    border-radius: 10%;   opacity: 0.90;
+
+}
+#contLink img
+{
+    height: 50%;
+}
+
+.login
+{
+    min-height: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.login form
+{
+    background-color: #da019c;
+    color: white;
+}
+
+input[type=text], input[type=password], input[type=email]
+{
+    display: block;
+    width: 100%;
+    margin: 5px 0px;
+}
