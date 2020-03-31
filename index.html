@@ -8,43 +8,54 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/inicial.css" >
 </head>
 <body>
-    <h1>usuarios</h1>
-    
+    <nav>
+        <div>
+            <img src="https://picsum.photos/seed/picsum/1400/300" alt="">
+        </div>
+    </nav>
+     
 <nav>
     <div id="menu">
         <div></div>
         <div><a href="principal.html">Inicio</a></div>
         <div><a href="productos.html">Productos</a></div>
-        <div><a href="perfil.html">perfil</a></div>
+        <div><a href="perfil.html">oferta</a></div>
         <div><a href="redes.html">Contacto</a></div>
         <div><a href="login.html">Login</a></div>
     </div>
 </nav>
-</nav>
-<fieldset>
-    <form style="border-radius: 10%;  opacity: 0.90;
-    background-color: white; padding: 15%; border-bottom: black 4px solid;"
-        action="" method="POST">
-        <h1>Registrarse</h1>
-        <p>------------------------------------------------------------------------------------------------------------------------------</p>
-        <label>Usuario</label>
-        <input type="text" name="usuario" id="usuario" placeholder="Usuario" required>
-        <label>Password</label>
-        <input type="password" name="password" id="password" placeholder="Contraseña" required><br><br>
-        <p>-----------------------Datos Personales-----------------------------------------------------------------------------------</p>
-        <label>Nombre</label><br><br>
-        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required><br><br>
-        <label>Appellido Paterno</label><br><br>
-        <input type="text" name="aPaterno" id="aPaterno" placeholder="Appellido Paterno" required><br><br>
-        <label>Appellido Materno</label><br><br>
-        <input type="text" name="aMaterno" id="aMaterno" placeholder="Appellido Materno" required><br><br>
-        <label>Ciudad</label><br><br>
-        <input type="text" name="Ciudad" id="Ciudad" placeholder="Ciudad" required><br><br>
-        <label>Telefono</label><br><br>
-        <input type="text" name="telefono" id="telefono" placeholder="Telefono" required><br><br>
-        <input onclick="agregarUsuario($usuario,$contraseña,$nombre,$aPaterno,$aMaterno,$Ciudad,$telefono)" type="submit">
-    </form>
-</fieldset>
+
+ <fieldset>
+        <form id="w">
+            <h1>Registrarse</h1>
+            <p>------------------------------------------------------------------------------------------------------------------------------</p>
+        Usuario
+            <input type="text" placeholder="txus@gmail.com">
+
+        Password
+            <input type="text" placeholder="magode_oz">
+            
+            <p>-----------------------Datos Personales-----------------------------------------------------------------------------------</p>
+        Nombre<br><br>
+            <input type="text" placeholder="LUIS">
+            
+        Appellido Paterno<br><br>
+            <input type="text" placeholder="zapata">
+            
+        Appellido Materno<br><br>
+            <input type="text" placeholder="zapata">
+            
+        Ciudad<br><br>
+            <input type="text" placeholder="sonora">
+            
+        Telefono<br><br>
+            <input type="text" placeholder="1234567">
+            
+            <br>
+            <a href="principal.html"> <button>enviar</button></a>
+                          
+        </form>
+    </fieldset>
 </body>
 
 </html>

@@ -62,5 +62,21 @@ nav
     opacity: 0.75;
 
 }
-
+#q{
+    border-radius: 10%; 
+    margin:2% 12% 12% 30%; 
+    opacity: 0.90;
+    background-color: white; 
+    padding: 15%; 
+    width: 40%; 
+    height: 20%; 
+    border-bottom: black 4px solid;
+}
+#w{
+    border-radius: 10%;  
+    opacity: 0.90;
+    background-color: white; 
+    padding: 15%; 
+    border-bottom: black 4px solid;
+}
 
