@@ -1,0 +1,9 @@
+th{
+    border: black 5px solid;
+    margin: 15px;
+    padding: 15px;
+}
+.border{
+    border: black 5px solid;
+    text-align: center;
+}
