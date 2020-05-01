@@ -1,10 +1,10 @@
 
-    const boton = document.getElementById('boton');
+    const boton3 = document.getElementById('boton3');
     boton.addEventListener('click', function() {
     
          const xhr = new XMLHttpRequest();
         
-         xhr.open('GET','/java/carito.json', true);
+         xhr.open('GET','/java/c2.json', true);
     
          xhr.onload = function() {
               if(this.status === 200) {
@@ -25,7 +25,7 @@
                                                                                
                         
                        })
-                       document.getElementById('pokemon').innerHTML = htmlTemplate;
+                       document.getElementById('pokemon3').innerHTML = htmlTemplate;
                       
               }
          }
