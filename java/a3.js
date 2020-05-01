@@ -1,5 +1,5 @@
 
-    const boton3 = document.getElementById('boton3');
+    const boton3 = document.getElementById('boto');
     boton.addEventListener('click', function() {
     
          const xhr = new XMLHttpRequest();
@@ -25,7 +25,7 @@
                                                                                
                         
                        })
-                       document.getElementById('pokemon3').innerHTML = htmlTemplate;
+                       document.getElementById('pokemo').innerHTML = htmlTemplate;
                       
               }
          }
